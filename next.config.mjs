@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   webpack: (config, { isServer }) => {
+    // Force webpack, disable turbopack
     return config;
   },
   output: 'standalone',
