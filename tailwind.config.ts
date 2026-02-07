@@ -6,23 +6,23 @@ const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tx,mdx}',
   ],
   theme: {
     extend: {
       colors: {
         keiths: {
-          primary: '#DC143C',    // Crimson red
-          secondary: '#FFD700',  // Gold
+          primary: '#DC143C',
+          secondary: '#FFD700',
           dark: '#1a1a1a',
           light: '#f5f5f5',
         },
         status: {
-          good: '#10B981',       // Green
-          warning: '#F59E0B',    // Orange/Yellow
-          danger: '#EF4444',     // Red
-          cold: '#3B82F6',       // Blue
-          hot: '#F97316',        // Orange
+          good: '#10B981',
+          warning: '#F59E0B',
+          danger: '#EF4444',
+          cold: '#3B82F6',
+          hot: '#F97316',
         }
       },
       fontFamily: {
@@ -37,4 +37,5 @@ const config: Config = {
   },
   plugins: [],
 }
+
 export default config
